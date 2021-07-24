@@ -1,0 +1,32 @@
+/* стилі до головного документа */
+/* політра кольорів */
+/* тексту */
+/* #212121 - чорний заголовки */
+/* #757575 - сірий текст */
+/* #FFFFFF - білий на ссилках */
+/* #2196F3 - синій на ссілках */
+
+/* фону */
+/* #FFFFFF - білий фон */
+/* #2F303A - темно сірий фон */
+/* #F5F4FA - світло сірий фон */
+
+:root{
+    --primery-text-color: #757575;
+    --title-color: #212121;
+    --accent-color: #FFFFFF;
+    --blue-accent-color: #2196F3;
+}
+
+ul {
+    list-style: none;
+}
+body{
+    color: var(--primery-text-color);
+}
+
+/* logo */
+.logo:hover,
+.logo:focus{
+    color: var(--blue-accent-color);
+}
