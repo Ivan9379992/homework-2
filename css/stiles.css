@@ -1,12 +1,12 @@
 /* стилі до головного документа */
 /* політра кольорів */
-/* тексту */
+/* 1 тексту */
 /* #212121 - чорний заголовки */
 /* #757575 - сірий текст */
 /* #FFFFFF - білий на ссилках */
 /* #2196F3 - синій на ссілках */
 
-/* фону */
+/* 2 фону */
 /* #FFFFFF - білий фон */
 /* #2F303A - темно сірий фон */
 /* #F5F4FA - світло сірий фон */
@@ -16,17 +16,87 @@
     --title-color: #212121;
     --accent-color: #FFFFFF;
     --blue-accent-color: #2196F3;
+    --first-background-color:  #2F303A;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--primery-text-color);
 }
 
 ul {
     list-style: none;
 }
-body{
-    color: var(--primery-text-color);
+h2,h3{
+    color: var(--title-color);
 }
 
 /* logo */
-.logo:hover,
-.logo:focus{
+.logo-web {
     color: var(--blue-accent-color);
+}
+
+.logo-studio{
+    color: #000000;
+}
+
+/*navigation*/
+.navigation{
+   color: var(--title-color); 
+}
+.navigation:hover,
+.navigation:focus{
+    color: var(--blue-accent-color);   
+}
+
+/* contact */
+.contact{
+    color: var(--primery-text-color);
+}
+.contact:hover,
+.contact:focus{
+    color: var(--blue-accent-color);
+}
+
+/* block main */
+.main-sect-1{
+    background-color: var(--first-background-color);
+}
+.main-sect-1-titel{
+    color: var(--accent-color);
+}
+.anchor{
+    background-color:  var(--blue-accent-color) ;
+    color: #FFFFFF;
+}
+
+/* block sect-2 */
+.sect-2{
+    background-color: #E5E5E5;
+}
+
+/* block sect-3 */
+.sect-3{
+    background-color: #E5E5E5;   
+}
+
+/* block team */
+.team{
+    background-color: #F5F4FA;
+}
+
+/* block footer */
+.footer{
+    background-color: var(--first-background-color);
+}
+.footer-logo-studio{
+    color: #FFFFFF;
+}
+
+.address{
+    color: #FFFFFF;
+}
+
+.footer-anchor{
+    color: #ACACB0;
 }
