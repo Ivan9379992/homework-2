@@ -1,0 +1,99 @@
+/* root color */
+:root{
+    --bgc-header: #FFFFFF;
+    --bgc-main: #E5E5E5;
+    --accent-color: #2196F3;
+    --titel-color: #212121;
+    --text-color: #757575;
+    }
+
+
+    /* щнуляторы */
+h1,h2,h3{
+    margin: 0px;
+}
+ul{
+    margin: 0px;
+    list-style: none;
+}
+
+a{
+    color: var(--titel-color);
+}
+
+
+/* селекторы тегов */
+body{
+    
+    font-family: Roboto, sans-serif;
+    background-color: var(--bgc-main);
+    color: var(--text-color);
+}
+
+
+/* селекторы класов */
+.header{
+        background-color: var(--bgc-header);
+}
+
+.header-conteiner{
+    display: flex;
+    align-items: center;
+    width: 1600px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    margin-left: auto;
+    margin-right: auto;  
+    
+    cursor: pointer;
+}
+
+.logo{
+    font-family: Raleway, serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-left: 215px;
+}
+.logo-web{
+    color: var(--accent-color);
+}
+.logo-studio{
+    color: #000000;
+}
+
+.nav-list{
+    display: flex;
+    margin-left: 93px;
+
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--titel-color);
+}
+.nav-list li+ li{
+    margin-left: 50px;
+}
+
+.nav-list-accent{
+    color: var(--accent-color);
+}
+
+.contact{
+    display: flex;
+    margin-left: 331px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--text-color);
+}
+
+.contact li + li{
+    margin-left: 50px;
+}
